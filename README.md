@@ -1,30 +1,28 @@
-# Portfólio (Projetos)
+# Renan Silva — Portfolio
 
-Este repositório contém projetos prontos para você usar como portfólio no GitHub (cada projeto em uma pasta, com README próprio e demo abrindo no navegador).
+A small landing page that links my main projects, each with a live front-end and its
+source code.
 
-## Projetos
+**Live:** https://genezera.github.io/Portifolio/
 
-- **TaskFlow Kanban** — quadro Kanban com drag-and-drop, edição e persistência em LocalStorage  
-  Pasta: `projects/taskflow-kanban/` • Demo: `projects/taskflow-kanban/index.html`
-- **ShopCart UI** — catálogo com filtros/pesquisa, carrinho e persistência em LocalStorage  
-  Pasta: `projects/shopcart-ui/` • Demo: `projects/shopcart-ui/index.html`
-- **Weatherly** — dashboard de clima com busca de cidades (Open‑Meteo) e cache local  
-  Pasta: `projects/weatherly/` • Demo: `projects/weatherly/index.html`
+## Projects
 
-## Como rodar
+| Project | Live | What it is |
+|---|---|---|
+| **Snowball** | [demo](https://genezera.github.io/Snowball/) · [code](https://github.com/Genezera/Snowball) | Delta-neutral funding-rate arbitrage bot (Node/TypeScript engine + React dashboard). Paper trading on real market data. |
+| **AurumOS** | [demo](https://genezera.github.io/AurumOS/) · [code](https://github.com/Genezera/AurumOS) | Multi-strategy quant trading orchestrator (Rust core + axum/WebSocket dashboard). Paper trading, real data. |
+| **ZeroToOne** | [demo](https://genezera.github.io/ZeroToOne/) · [code](https://github.com/Genezera/ZeroToOne) | Automated bug-bounty research pipeline that verifies each finding with an executed proof-of-concept before human review. |
+| **Build Grimoire** | [demo](https://genezera.github.io/grimorio-de-builds/) · [code](https://github.com/Genezera/grimorio-de-builds) | Interactive Path of Exile 2 build guides, generated from build data and published as a static bilingual (PT/EN) site. |
 
-Você pode abrir o `index.html` de cada projeto diretamente no navegador. Se algum navegador bloquear requisições (no projeto de clima), rode com um servidor local:
+The trading dashboards are 100% paper trading; opened as a static front-end on GitHub
+Pages they render without the local backend, so live figures appear empty.
 
-```bash
-python -m http.server 5173
-```
+## Tech
 
-Depois acesse: `http://localhost:5173/`
+Static HTML/CSS/JS, no build step. `styles.css` holds the theme (dark/light aware) and
+`main.js` only fills in the current year.
 
-## Como transformar em “vários repositórios”
+## Contact
 
-Se você quiser deixar “1 projeto = 1 repo” no GitHub:
-
-1. Crie um novo repositório no GitHub.
-2. Copie a pasta do projeto (ex.: `projects/taskflow-kanban/`) para uma pasta vazia e faça commit.
-3. Publique esse repositório.
+- GitHub: https://github.com/Genezera
+- LinkedIn: https://www.linkedin.com/in/renan-silva-6a025a402
