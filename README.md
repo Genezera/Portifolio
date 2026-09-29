@@ -25,4 +25,4 @@ Static HTML/CSS/JS, no build step. `styles.css` holds the theme (dark/light awar
 ## Contact
 
 - GitHub: https://github.com/Genezera
-- LinkedIn: https://www.linkedin.com/in/renan-silva-6a025a402
+- LinkedIn: https://www.linkedin.com/in/renan-silva-6a026a402
