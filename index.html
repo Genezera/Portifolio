@@ -1,13 +1,13 @@
 <!doctype html>
-<html lang="pt-BR">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="color-scheme" content="dark light" />
-    <title>Portfólio | Projetos</title>
+    <title>Renan Silva — Portfolio</title>
     <meta
       name="description"
-      content="Coleção de projetos front-end prontos para apresentar como portfólio."
+      content="Selected projects by Renan Silva, Full-Stack Developer — quant trading systems, security automation and interactive web apps. Each project has a live demo and source code."
     />
     <meta name="theme-color" content="#0B1220" />
     <link rel="stylesheet" href="./styles.css" />
@@ -16,77 +16,107 @@
   <body>
     <header class="top">
       <div class="container top__inner">
-        <a class="logo" href="./index.html" aria-label="Home">Portfólio</a>
-        <nav class="top__nav" aria-label="Navegação">
-          <a class="top__link" href="./README.md">README</a>
-          <a class="top__link" href="https://github.com/Genezera" target="_blank" rel="noreferrer">
-            GitHub
-          </a>
+        <a class="logo" href="./index.html" aria-label="Home">Renan Silva</a>
+        <nav class="top__nav" aria-label="Navigation">
+          <a class="top__link" href="https://github.com/Genezera" target="_blank" rel="noreferrer">GitHub</a>
+          <a class="top__link" href="https://www.linkedin.com/in/renan-silva-6a025a402" target="_blank" rel="noreferrer">LinkedIn</a>
         </nav>
       </div>
     </header>
 
     <main class="container">
       <section class="hero">
-        <h1 class="hero__title">Projetos prontos para portfólio</h1>
+        <h1 class="hero__title">Selected projects</h1>
         <p class="hero__subtitle">
-          Abra as demos abaixo no navegador. Cada projeto tem um README com detalhes, features e instruções.
+          Full-Stack Developer (React, TypeScript, Node.js) with a background in
+          information security. Below are the projects I build and maintain — each
+          one has a live front-end you can open and the full source code. The
+          trading dashboards are 100% paper trading on real market data; opened as a
+          static front-end here, they run without the local backend.
         </p>
       </section>
 
-      <section class="grid" aria-label="Lista de projetos">
+      <section class="grid grid--two" aria-label="Project list">
         <article class="card">
-          <h2 class="card__title">TaskFlow Kanban</h2>
+          <h2 class="card__title">Snowball</h2>
           <p class="card__text">
-            Quadro Kanban com drag-and-drop, edição e persistência em LocalStorage.
+            Delta-neutral funding-rate arbitrage bot — long on one exchange, short on
+            another, on the same asset. Node/TypeScript engine plus a live React
+            dashboard (Command Center). 100% paper trading on real market data.
           </p>
           <div class="card__actions">
-            <a class="btn btn--primary" href="./projects/taskflow-kanban/index.html">Abrir demo</a>
-            <a class="btn btn--ghost" href="./projects/taskflow-kanban/README.md">README</a>
+            <a class="btn btn--primary" href="https://genezera.github.io/Snowball/" target="_blank" rel="noreferrer">Open dashboard</a>
+            <a class="btn btn--ghost" href="https://github.com/Genezera/Snowball" target="_blank" rel="noreferrer">Source code</a>
           </div>
           <ul class="tags" aria-label="Tags">
-            <li class="tag">Vanilla JS</li>
-            <li class="tag">Drag & Drop</li>
-            <li class="tag">LocalStorage</li>
+            <li class="tag">TypeScript</li>
+            <li class="tag">React</li>
+            <li class="tag">Node.js</li>
+            <li class="tag">Quant / Trading</li>
           </ul>
         </article>
 
         <article class="card">
-          <h2 class="card__title">ShopCart UI</h2>
+          <h2 class="card__title">AurumOS</h2>
           <p class="card__text">
-            Catálogo com filtros/pesquisa, carrinho e persistência em LocalStorage.
+            Multi-strategy quant trading orchestrator: 9 independent strategies
+            competing for one risk budget through a central decision engine. Rust core
+            with an embedded axum + WebSocket dashboard. Real data, paper trading only.
           </p>
           <div class="card__actions">
-            <a class="btn btn--primary" href="./projects/shopcart-ui/index.html">Abrir demo</a>
-            <a class="btn btn--ghost" href="./projects/shopcart-ui/README.md">README</a>
+            <a class="btn btn--primary" href="https://genezera.github.io/AurumOS/" target="_blank" rel="noreferrer">Open dashboard</a>
+            <a class="btn btn--ghost" href="https://github.com/Genezera/AurumOS" target="_blank" rel="noreferrer">Source code</a>
           </div>
           <ul class="tags" aria-label="Tags">
-            <li class="tag">UI</li>
-            <li class="tag">State</li>
-            <li class="tag">LocalStorage</li>
+            <li class="tag">Rust</li>
+            <li class="tag">WebSocket</li>
+            <li class="tag">Risk engine</li>
+            <li class="tag">Trading</li>
           </ul>
         </article>
 
         <article class="card">
-          <h2 class="card__title">Weatherly</h2>
+          <h2 class="card__title">ZeroToOne</h2>
           <p class="card__text">
-            Dashboard de clima com busca de cidades (Open‑Meteo) e cache local.
+            Automated bug-bounty research pipeline: finds in-scope open-source targets,
+            scans their real source code, verifies each finding with an actually
+            executed proof-of-concept, and drafts evidence-backed reports for human
+            review. Submission is always a deliberate human action.
           </p>
           <div class="card__actions">
-            <a class="btn btn--primary" href="./projects/weatherly/index.html">Abrir demo</a>
-            <a class="btn btn--ghost" href="./projects/weatherly/README.md">README</a>
+            <a class="btn btn--primary" href="https://genezera.github.io/ZeroToOne/" target="_blank" rel="noreferrer">Open dashboard</a>
+            <a class="btn btn--ghost" href="https://github.com/Genezera/ZeroToOne" target="_blank" rel="noreferrer">Source code</a>
           </div>
           <ul class="tags" aria-label="Tags">
-            <li class="tag">Fetch</li>
-            <li class="tag">API</li>
-            <li class="tag">Cache</li>
+            <li class="tag">Node.js</li>
+            <li class="tag">Security</li>
+            <li class="tag">Automation</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h2 class="card__title">Build Grimoire</h2>
+          <p class="card__text">
+            Interactive Path of Exile 2 build guides (level 1 → 100), generated from
+            build data by a small Python toolkit and published as a static, bilingual
+            (PT/EN) site. No backend — the guides adapt to what the player owns.
+          </p>
+          <div class="card__actions">
+            <a class="btn btn--primary" href="https://genezera.github.io/grimorio-de-builds/" target="_blank" rel="noreferrer">Open site</a>
+            <a class="btn btn--ghost" href="https://github.com/Genezera/grimorio-de-builds" target="_blank" rel="noreferrer">Source code</a>
+          </div>
+          <ul class="tags" aria-label="Tags">
+            <li class="tag">JavaScript</li>
+            <li class="tag">Python</li>
+            <li class="tag">Static site</li>
           </ul>
         </article>
       </section>
 
       <footer class="footer">
         <p class="footer__text">
-          <span data-year></span> • Feito para servir como portfólio no GitHub.
+          <span data-year></span> • Renan Silva — Full-Stack Developer •
+          <a href="https://github.com/Genezera" target="_blank" rel="noreferrer" style="color: var(--accent)">github.com/Genezera</a>
         </p>
       </footer>
     </main>
