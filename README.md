@@ -1,7 +1,7 @@
 # Renan Silva — Portfolio
 
-A small landing page that links my main projects, each with a live front-end and its
-source code.
+A small landing page that links my main projects, each with its source code and most
+with a live front-end.
 
 **Live:** https://genezera.github.io/Portifolio/
 
@@ -9,7 +9,7 @@ source code.
 
 | Project | Live | What it is |
 |---|---|---|
-| **Broadcast** | [demo](https://broadcast-renan-2026.web.app) · [code](https://github.com/Genezera/broadcast) | Multi-tenant SaaS for contacts and bulk messages (simulated), sent right away or on a schedule. React + TypeScript, Firebase Auth, Firestore and Cloud Functions. |
+| **Broadcast** | [code](https://github.com/Genezera/broadcast) | Multi-tenant SaaS for contacts and bulk messages (simulated), sent right away or on a schedule. React + TypeScript, Firebase Auth, Firestore and Cloud Functions. Runs locally with the Firebase emulators. |
 | **Snowball** | [demo](https://genezera.github.io/Snowball/) · [code](https://github.com/Genezera/Snowball) | Delta-neutral funding-rate arbitrage bot (Node/TypeScript engine + React dashboard). Paper trading on real market data. |
 | **AurumOS** | [demo](https://genezera.github.io/AurumOS/) · [code](https://github.com/Genezera/AurumOS) | Multi-strategy quant trading orchestrator (Rust core + axum/WebSocket dashboard). Paper trading, real data. |
 | **ZeroToOne** | [demo](https://genezera.github.io/ZeroToOne/) · [code](https://github.com/Genezera/ZeroToOne) | Automated bug-bounty research pipeline that verifies each finding with an executed proof-of-concept before human review. |
